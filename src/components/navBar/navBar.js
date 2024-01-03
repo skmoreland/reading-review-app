@@ -11,9 +11,9 @@ function NavBar(props) {
             alt="Bubble" />
             <div className = "Pages">
                     <Link to="/" className="Link">HOME</Link>
-                    <Link to="/profile" className="Link">PROFILE</Link>
-                    <Link to="/log" className="Link">LOG</Link>
                     <Link to="/explore" className="Link">EXPLORE</Link>
+                    <Link to="/log" className="Link">LOG</Link>
+                    <Link to="/profile" className="Link">PROFILE</Link>
             </div>
       </nav>
   );
