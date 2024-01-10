@@ -1,5 +1,6 @@
 import {Routes, Route} from "react-router-dom";
 import NavBar from "./components/navBar/navBar";
+import Log from "./pages/log/log";
 function AppRouter() {
     return (
         <Routes>
@@ -10,7 +11,11 @@ function AppRouter() {
                <NavBar />
             }/>
             <Route path="/log" element={
-                <NavBar />
+                <div>
+                    <NavBar />
+                    <Log />
+                </div>
+                
             }/>
             <Route path="/explore" element={
                <NavBar />

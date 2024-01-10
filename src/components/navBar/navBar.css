@@ -15,15 +15,45 @@
     align-content: center;
     padding-left: 12px;
     padding-right: 20px;
+
+    font-family: 'Merriweather';
 }
 
 .Link {
     padding: 20px;
     text-decoration: none;
     color: black;
-    font-family: 'Merriweather';
 }
 
 .Link:hover {
     color:#5347A3;
+}
+
+.LogButton {
+    padding: 20px;
+    margin-left:10px;
+    margin-right: 10px;
+    height:20px;
+    width:70px;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #5347A3;
+    color:white;
+    border-radius: 0.375rem;
+}
+
+.LogButtonPlus {
+    height:20px;
+    padding-top:4px;
+}
+.LogButtonTitle {
+    height: 20px;
+    font-size: 20px;
+    margin: 0px;
+}
+.LogButton:hover {
+    background-color: #7c6dd6;
 }
